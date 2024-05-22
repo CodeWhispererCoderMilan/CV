@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Behar's CV</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #1e1e1e;
+            color: #dcdcdc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .sidebar {
+            width: 29%;
+            background-color: #252526;
+            padding: 20px;
+        }        .main-content {
+            width: 75%;
+            padding: 20px;
+        }
+        h1, h2, h3, p, li {
+            margin: 0 0 10px 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        a {
+            color: #569cd6;
+            text-decoration: none;
+        }
+        .section-title {
+            color: #d69d85;
+        }
+        .highlight {
+            color: #569cd6;
+        }
+	.return {
+	    color : #FFB6C1;
+	}
+        .content {
+            margin-bottom: 20px;
+        }
+        pre {
+            background-color: #1e1e1e;
+            padding: 10px;
+            overflow: auto;
+        }
+        code {
+            color: #dcdcdc;
+            display: block;
+        }
+        .function-name {
+            color:#ead89b;
+        }
+        .parameter {
+            color: #9cdcfe;
+        }
+        .string {
+            color: #ce9178;
+        }
+        .comment {
+            color: #6a9955;
+        }
+        .keyword {
+            color: #c586c0;
+        }
+        .type {
+            color: #4ec9b0;
+        }
+	.file-explorer {
+            color: #dcdcdc;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .file-explorer .folder:before {
+            content: "\1F4C1";
+            margin-right: 5px;
+        }
+        .file-explorer .phone:before {
+            content: "\1f581";
+            margin-right: 5px;
+    	}
+	.file-explorer .mail:before {
+            content: "\1F4EB";
+            margin-right: 5px;
+    	}
+
+    </style>
+</head>
+<body>
+   <div class="sidebar">
+        <h1>Michael Behar</h1>
+        <div class="file-explorer">
+            <ul>
+		    <li class="folder">Contact Details 
+                    
+		    <ul>
+			
+                        <li class="phone"><span class="highlight"></span>+40786042000</li>
+                        <li class="mail"><span class="highlight"></span> michaelbehar99@gmail.com</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="content">
+            <pre><code>
+<span class="keyword">function</span> <span class="function-name">experience</span>() {
+    <span class="comment">// Full stack & Blockchain Smart contract developer | IconX project</span>
+    <span class="parameter">const</span> iconXProject = {
+        <span class="type">position</span>: <span class="string">"Full stack & Blockchain Smart contract developer"</span>,
+        <span class="type">company</span>: <span class="string">"IconX project"</span>,
+        <span class="type">duration</span>: <span class="string">"OCTOBER 2022 – JANUARY 2023"</span>,
+        <span class="type">technologies</span>: [<span class="string">"Solidity"</span>, <span class="string">"React"</span>, <span class="string">"Electron.js"</span>, <span class="string">"Node.js"</span>],
+        <span class="type">description</span>: <span class="string">"Designing and developing a web3 simulated racing series web and desktop app with blockchain support."</span>
+    };
+    <span class="comment">// Full stack developer | Israeli Navy, Ramat Gan</span>
+    <span class="parameter">const</span> navyRamatGan = {
+        <span class="type">position</span>: <span class="string">"Full stack developer"</span>,
+	<span class="type">company</span>: <span class="string">"Israeli Navy, Ramat Gan"</span>,
+        <span class="type">duration</span>: <span class="string">"DECEMBER 2019 – AUGUST 2022"</span>,
+        <span class="type">technologies</span>: [<span class="string">"React.js"</span>, <span class="string">"Node.js"</span>, <span class="string">"PostgreSQL"</span>, <span class="string">"Docker"</span>, <span class="string">"Linux"</span>],
+        <span class="type">description</span>: <span class="string">"Development and maintenance of a web app with RESTful API model, working on React client side as well as Node and PostgreSQL on the server side."</span>
+    };
+    <span class="comment">// Cybersecurity Engineer | Israeli Navy, Haifa</span>
+    <span class="parameter">const</span> navyHaifa = {
+        <span class="type">position</span>: <span class="string">"Cybersecurity Engineer"</span>,
+        <span class="type">company</span>: <span class="string">"Israeli Navy, Haifa"</span>,
+        <span class="type">duration</span>: <span class="string">"DECEMBER 2019 – NOVEMBER 2020"</span>,
+        <span class="type">description</span>: <span class="string">"Integration of new development tools and improving CICD process securely through risk assessment and vulnerability testing."</span>
+    };
+    <span class = "return">return</span> [iconXProject, navyHaifa, navyRamatGan, AmbassadorGPT];
+}
+    
+<span class="keyword">function</span> <span class="function-name">education</span>() {
+    <span class="comment">// Bachelor of Science in Computer Science | IDC Herzliya, Israel</span>
+    <span class="parameter">const</span> bsc = {
+        <span class="type">degree</span>: <span class="string">"Bachelor of Science in Computer Science"</span>,
+        <span class="type">institution</span>: <span class="string">"IDC Herzliya, Israel"</span>,
+        <span class="type">duration</span>: <span class="string">"OCTOBER 2015 – AUGUST 2019"</span>,
+        <span class="type">classes</span>: [<span class="string">"Cryptography"</span>, <span class="string">"Network Security"</span>, <span class="string">"VR game development"</span>],
+        <span class="type">languages</span>: [<span class="string">"Java"</span>, <span class="string">"JavaScript"</span>, <span class="string">"HTML"</span>, <span class="string">"Scheme"</span>, <span class="string">"Assembly"</span>, <span class="string">"C++"</span>]
+    };
+    <span class="comment">// High School Student | Tudor Vianu College of Computer Science, Romania</span>
+    <span class="parameter">const</span> highSchool = {
+        <span class="type">degree</span>: <span class="string">"High School Student"</span>,
+        <span class="type">institution</span>: <span class="string">"Tudor Vianu College of Computer Science, Romania"</span>,
+        <span class="type">duration</span>: <span class="string">"AUGUST 2014 – DECEMBER 2015"</span>,
+        <span class="type">satMath</span>: <span class="string">"SAT Math (740/800)"</span>
+    };
+    <span class="comment">// Grade and High School Student | Lauder-Reut Educational Complex, Romania</span>
+    <span class="parameter">const</span> gradeSchool = {
+        <span class="type">degree</span>: <span class="string">"Grade and High School Student"</span>,
+        <span class="type">institution</span>: <span class="string">"Lauder-Reut Educational Complex, Romania"</span>,
+        <span class="type">duration</span>: <span class="string">"SEPTEMBER 2005 – JUNE 2014"</span>
+    };
+}
+<span class="keyword">function</span> <span class="function-name">skills</span>() {
+    <span class="type">languages</span>: [<span class="string">"Java"</span>, <span class="string">"JavaScript"</span>, <span class="string">"SQL"</span>, <span class="string">"HTML"</span>, <span class="string">"CSS"</span>, <span class="string">"Python"</span>, <span class="string">"C++"</span>, <span class="string">"Scheme"</span>, <span class="string">"Assembly"</span>],
+    <span class="type">tools</span>: [<span class="string">"Microsoft Office"</span>, <span class="string">"Docker"</span>],
+    <span class="type">blockchain</span>: [<span class="string">"Solidity smart contracts"</span>],
+    <span class="type">languagesProficiency</span>: {
+        <span class="type">Romanian</span>: <span class="string">"Native"</span>,
+        <span class="type">English</span>: <span class="string">"Proficient"</span>,
+        <span class="type">Hebrew</span>: <span class="string">"Intermediate"</span>
+    }
+}
+<span class="keyword">function</span> <span class="function-name">activities</span>() {
+    <span class="comment">// Unreal Engine Development, Israel, 2018</span>
+    <span class="parameter">const</span> unrealEngine = {
+        <span class="type">description</span>: <span class="string">"Virtual Escape Room and Social Experiment development"</span>
+    };
+    <span class="comment">// Debate and Diplomacy, Romania, 2014-2015</span>
+    <span class="parameter">const</span> debateDiplomacy = {
+        <span class="type">description</span>: <span class="string">"Participation in debate and diplomacy events"</span>
+    };
+    <span class="comment">// Coding Olympiad, Romania, 2015</span>
+    <span class="parameter">const</span> codingOlympiad = {
+        <span class="type">description</span>: <span class="string">"Participation in coding competitions"</span>
+    };
+    <span class="comment">// Mathematical Olympiad and History Olympiad, Romania, 2013</span>
+    <span class="parameter">const</span> olympiads = {
+        <span class="type">description</span>: <span class="string">"Participation in mathematical and history competitions"</span>
+    };
+}
+            </code></pre>
+        </div>
+    </div>
+</body>
+</html>
+
